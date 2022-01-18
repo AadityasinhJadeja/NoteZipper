@@ -1,0 +1,20 @@
+{
+  "name": "notezipper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "author": "Aadityasinh Jadeja",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6",
+    "nodemon": "^2.0.15"
+  }
+}
